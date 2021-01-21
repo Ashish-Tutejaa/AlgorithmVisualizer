@@ -1,0 +1,44 @@
+body,html{
+background-color: rgba(0, 192, 192, 0.835);
+}
+
+.array{
+background-color: white;
+margin: 10px;
+height: 50px;
+width: fit-content;
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.mid{
+background-color: grey;
+margin: 0px 5px;
+text-align: center;
+color:white;
+height: 40px;
+width: 50px;
+}
+
+.mid-c{
+background-color: green;
+margin: 0px 5px;
+text-align: center;
+color:white;
+height: 40px;
+width: 50px;
+}
+
+.mid-p{
+background-color: red;
+margin: 0px 5px;
+text-align: center;
+color:white;
+height: 40px;
+width: 50px;
+}
+.mini{
+border-bottom: 5px solid blue;
+}

@@ -1,0 +1,93 @@
+.body-wrap{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #ABC;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    padding: 50px;
+}
+
+.card-header{
+
+}
+
+.card-body{
+    background-color: #ABC;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-wrap{
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    width: fit-content;
+    margin: 10px 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card-part{
+    background-color: transparent;
+    /* height: 50px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 0px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+  
+}
+
+button{
+    box-sizing: border-box;
+    height: 40px;
+    width: fit-content;
+    padding: 0px 15px;
+    background-color: rgb(62, 85, 107);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+    font-size: 0.85rem;
+    box-shadow: 0px 0px 0px 0px #ABC;
+    transition-duration: 80ms;
+    outline: none;
+}
+
+button:active{
+    box-shadow: 0px 0px 0px 6px #ABC;
+}
+
+button:disabled{
+    background-color:  rgba(62, 85, 107, 0.7);
+}
+
+.inputGroup{
+
+}
+
+.input{
+    margin: 5px;
+    height: 25px;
+    width: 300px;
+    transition-duration: 150ms;
+}
+
+.input:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 0px 5px rgba(115, 158, 199, 0.7);
+    border-radius: 1px;
+}
+
+.inputGroup button{
+    height: 33px;
+}
